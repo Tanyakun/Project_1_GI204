@@ -4,6 +4,8 @@ public class PlayerController : MonoBehaviour
 {
     public Transform[] lanes; // SpawnPoint ที่กำหนด
     private int currentLane = 0;  // Lane ปัจจุบัน
+    public float speed = 2f;
+    private Vector3 moveDirection = Vector3.zero;
 
     void Start()
     {
@@ -25,6 +27,8 @@ public class PlayerController : MonoBehaviour
         {
             MoveLane(1); // ลง Lane
         }
+
+        transform.position += moveDirection * speed * Time.deltaTime;
     }
 
     void MoveLane(int direction)
@@ -35,6 +39,11 @@ public class PlayerController : MonoBehaviour
             currentLane = newLane;
             transform.position = new Vector3(transform.position.x, lanes[currentLane].position.y, lanes[currentLane].position.z);
         }
+    }
+
+    public void SetDirection(Vector3 direction)
+    {
+        moveDirection = direction.normalized; // กำหนดทิศทาง
     }
 }
 

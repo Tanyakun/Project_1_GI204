@@ -630,6 +630,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &811257199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 811257200}
+  m_Layer: 0
+  m_Name: SpawnDino_Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &811257200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811257199}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1075520340}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +784,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 533687083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1075520340 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1270311672256590525, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
+  m_PrefabInstance: {fileID: 6052126672377911670}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1280950435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1107,6 +1143,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1583680265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1583680266}
+  - component: {fileID: 1583680267}
+  m_Layer: 0
+  m_Name: SpawnDino_Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1583680266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583680265}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2035608563}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1583680267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583680265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14e1d83dd97854742b1d3acea0a92dd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dinoPrefabs:
+  - {fileID: 3426128483831217432, guid: d05c1df56ab0ab341a4e7771d8656366, type: 3}
+  spawnPoint: {fileID: 1583680266}
 --- !u!1 &1681595364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,6 +1459,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3f6ae9ec359e354a9a52c2f37ffc3d5, type: 3}
+--- !u!4 &2035608563 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7990511524792459538, guid: d8b4b0696baeac249b375e08c137470e, type: 3}
+  m_PrefabInstance: {fileID: 132592877433627576}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2063296364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1516,7 +1604,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7990511524792459538, guid: d8b4b0696baeac249b375e08c137470e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1583680266}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8b4b0696baeac249b375e08c137470e, type: 3}
 --- !u!1001 &6052126672377911670
@@ -1572,8 +1663,16 @@ PrefabInstance:
       value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4200109066150573718, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 811257200}
+    - target: {fileID: 4200109066150573718, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
       propertyPath: lanes.Array.size
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200109066150573718, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
+      propertyPath: spawnDinoInterval
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4200109066150573718, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
       propertyPath: 'lanes.Array.data[0]'
@@ -1595,9 +1694,20 @@ PrefabInstance:
       propertyPath: 'lanes.Array.data[4]'
       value: 
       objectReference: {fileID: 437729019}
+    - target: {fileID: 4200109066150573718, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
+      propertyPath: enemyDinoPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200109066150573718, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
+      propertyPath: 'enemyDinoPrefabs.Array.data[0]'
+      value: 
+      objectReference: {fileID: 3748266778680828335, guid: b49f4940a64779940bf343303b2e22eb, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1270311672256590525, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 811257200}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
 --- !u!1660057539 &9223372036854775807
