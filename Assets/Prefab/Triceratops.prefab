@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1939605653820712967
+--- !u!1 &219215640782262130
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1270311672256590525}
-  - component: {fileID: 2742364694914137368}
-  - component: {fileID: 137959438664141266}
-  - component: {fileID: 4200109066150573718}
+  - component: {fileID: 594791647569057224}
+  - component: {fileID: 4606835314084158061}
+  - component: {fileID: 1732253109832838823}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Triceratops_0321095938_texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1270311672256590525
+--- !u!4 &594791647569057224
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939605653820712967}
+  m_GameObject: {fileID: 219215640782262130}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 10.62, y: 1, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalRotation: {x: 0.000000026692538, y: 0.7071068, z: 0.000000026692538, w: 0.70710677}
+  m_LocalPosition: {x: 0.017234802, y: 0.65, z: -0.006462097}
+  m_LocalScale: {x: 110, y: 110, z: 110}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8105246480368096098}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 4615220244894381984}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!33 &2742364694914137368
+--- !u!33 &4606835314084158061
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939605653820712967}
-  m_Mesh: {fileID: 8777139954052135742, guid: 96a959a09b8edc14e9fc5db63c66b642, type: 3}
---- !u!23 &137959438664141266
+  m_GameObject: {fileID: 219215640782262130}
+  m_Mesh: {fileID: 8777139954052135742, guid: 4105c062ba2b3344cafcae5fc51c7db5, type: 3}
+--- !u!23 &1732253109832838823
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939605653820712967}
+  m_GameObject: {fileID: 219215640782262130}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -66,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4fa34160431992045a68cd5277b6d54f, type: 2}
+  - {fileID: 2100000, guid: 704cfb0028d6fc94daf345f1eec8bd26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,31 +86,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4200109066150573718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1939605653820712967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 563dadb80ff21e143baefdc21c035a80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lanes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  changeLaneInterval: 2
-  spawnDinoInterval: 2
-  speed: 2
-  enemyDinoPrefabs:
-  - {fileID: 7580926111640989261, guid: 071053ae3978e8740813520c9abec169, type: 3}
-  spawnPoint: {fileID: 8105246480368096098}
---- !u!1 &7406844966013121924
+--- !u!1 &1667256906644644307
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,26 +94,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8105246480368096098}
+  - component: {fileID: 4615220244894381984}
   m_Layer: 0
-  m_Name: SpawnDino_Enemy
+  m_Name: Triceratops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8105246480368096098
+--- !u!4 &4615220244894381984
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7406844966013121924}
+  m_GameObject: {fileID: 1667256906644644307}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 5.837796, y: 0, z: 4.019}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1270311672256590525}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_Children:
+  - {fileID: 594791647569057224}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}

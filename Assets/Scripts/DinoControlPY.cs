@@ -11,6 +11,10 @@ public class DinoControl : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.mass = mass;  // ตั้งค่ามวล
-        rb.linearVelocity = transform.forward * speed;  // ให้ Object เคลื่อนที่ไปข้างหน้า
+    }
+
+    void FixedUpdate()
+    {
+        rb.linearVelocity = transform.right * speed;  // ทำให้เคลื่อนที่ไปข้างหน้าเรื่อยๆ
     }
 }
