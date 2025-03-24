@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4892721701278545775}
   - component: {fileID: -8456406193268059728}
   m_Layer: 0
-  m_Name: T-rex A
+  m_Name: T-rex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  mass: 1
+  mass: 6
 --- !u!1 &3454526392530262097
 GameObject:
   m_ObjectHideFlags: 0

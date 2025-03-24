@@ -45,8 +45,10 @@ public class Enemy : MonoBehaviour
     {
         if (spawnPoint != null && enemyDinoPrefabs.Length > 0)
         {
-            int dinoIndex = 0; // ตอนนี้เลือกไดโนเสาร์ตัวแรกก่อน
-            GameObject dino = Instantiate(enemyDinoPrefabs[dinoIndex], spawnPoint.position, Quaternion.identity);
+            int dinoIndex = Random.Range(0, enemyDinoPrefabs.Length);
+            Quaternion spawnRotation = Quaternion.Euler(0, -180, 0);
+
+            GameObject dino = Instantiate(enemyDinoPrefabs[dinoIndex], spawnPoint.position, spawnRotation);
         }
     }
 

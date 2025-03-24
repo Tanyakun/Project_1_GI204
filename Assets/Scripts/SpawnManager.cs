@@ -18,7 +18,9 @@ public class SpawnManager : MonoBehaviour
     {
         if (spawnPoint != null && dinoPrefabs.Length > 0)
         {
-            int dinoIndex = 0; // ตอนนี้เลือกไดโนเสาร์ตัวแรกก่อน
+            // เลือกไดโนเสาร์แบบสุ่ม
+            int dinoIndex = Random.Range(0, dinoPrefabs.Length);
+
             GameObject dino = Instantiate(dinoPrefabs[dinoIndex], spawnPoint.position, Quaternion.identity);
         }
     }

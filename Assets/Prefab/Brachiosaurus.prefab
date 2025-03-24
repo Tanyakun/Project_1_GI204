@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1802027216595931033}
   - component: {fileID: 1501972264265585129}
   m_Layer: 9
-  m_Name: Brachiosaurus A
+  m_Name: Brachiosaurus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  mass: 1
+  mass: 4
 --- !u!1 &9160155414828201080
 GameObject:
   m_ObjectHideFlags: 0
