@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class DinoControl : MonoBehaviour
+public class DinoControlPY : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;  // ความเร็ว (กำหนดจาก Inspector)
     [SerializeField] private float mass = 1f;   // มวล (กำหนดจาก Inspector)
