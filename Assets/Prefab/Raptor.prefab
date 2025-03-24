@@ -54,10 +54,69 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 96c24b7379a70354ab5b34b850441fea, type: 2}
     - target: {fileID: 919132149155446097, guid: e680ec63367e639459da74d435517333, type: 3}
       propertyPath: m_Name
-      value: Koryaw
+      value: Raptor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e680ec63367e639459da74d435517333, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6925722096114972774}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e680ec63367e639459da74d435517333, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2018653187139375531}
   m_SourcePrefab: {fileID: 100100000, guid: e680ec63367e639459da74d435517333, type: 3}
+--- !u!1 &3426128483831217432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e680ec63367e639459da74d435517333, type: 3}
+  m_PrefabInstance: {fileID: 2543799752803631177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &6925722096114972774
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3426128483831217432}
+  serializedVersion: 4
+  m_Mass: 50
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &-2018653187139375531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3426128483831217432}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.02001563, y: 0.008444119, z: 0.00559614}
+  m_Center: {x: -0.0000016246922, y: -0.000025020214, z: -0.00001022988}

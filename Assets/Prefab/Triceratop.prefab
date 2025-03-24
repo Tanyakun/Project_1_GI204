@@ -66,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 7c15a3fe78dc33741894e839edf580d9, type: 2}
     - target: {fileID: 919132149155446097, guid: f3f6ae9ec359e354a9a52c2f37ffc3d5, type: 3}
       propertyPath: m_Name
-      value: Velo
+      value: Triceratop
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
