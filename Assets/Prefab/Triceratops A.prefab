@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2067583199951439199
+--- !u!1 &219215640782262130
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1727789459062890469}
-  - component: {fileID: 2329923201243844672}
-  - component: {fileID: 554360050874082442}
+  - component: {fileID: 594791647569057224}
+  - component: {fileID: 4606835314084158061}
+  - component: {fileID: 1732253109832838823}
   m_Layer: 9
-  m_Name: Create_velociraptor_i_0323090820_texture
+  m_Name: Triceratops_0321095938_texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1727789459062890469
+--- !u!4 &594791647569057224
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067583199951439199}
+  m_GameObject: {fileID: 219215640782262130}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000003774895, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.33599997, y: 0.455, z: -0.0099310875}
+  m_LocalRotation: {x: 0.000000026692538, y: 0.7071068, z: 0.000000026692538, w: 0.70710677}
+  m_LocalPosition: {x: 0.017234802, y: 0.65, z: -0.006462097}
   m_LocalScale: {x: 110, y: 110, z: 110}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5639310580369029699}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2329923201243844672
+  m_Father: {fileID: 4615220244894381984}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!33 &4606835314084158061
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067583199951439199}
-  m_Mesh: {fileID: -8089699231438940418, guid: e680ec63367e639459da74d435517333, type: 3}
---- !u!23 &554360050874082442
+  m_GameObject: {fileID: 219215640782262130}
+  m_Mesh: {fileID: 8777139954052135742, guid: 4105c062ba2b3344cafcae5fc51c7db5, type: 3}
+--- !u!23 &1732253109832838823
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067583199951439199}
+  m_GameObject: {fileID: 219215640782262130}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20bfb54a98970c34a98ee10f10099fad, type: 2}
+  - {fileID: 2100000, guid: 704cfb0028d6fc94daf345f1eec8bd26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,7 +86,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7580926111640989261
+--- !u!1 &1667256906644644307
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,40 +94,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5639310580369029699}
-  - component: {fileID: -3233176264672773090}
-  - component: {fileID: 1825994416083350721}
-  - component: {fileID: -413633781304067835}
+  - component: {fileID: 4615220244894381984}
+  - component: {fileID: 8430808337926347512}
+  - component: {fileID: -5567507831743534819}
+  - component: {fileID: 1060930898382621296}
   m_Layer: 9
-  m_Name: Velociraptor
+  m_Name: Triceratops A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5639310580369029699
+--- !u!4 &4615220244894381984
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7580926111640989261}
+  m_GameObject: {fileID: 1667256906644644307}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.024, y: 0, z: -4.0013}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 5.837796, y: 0, z: 4.019}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1727789459062890469}
+  - {fileID: 594791647569057224}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &-3233176264672773090
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!54 &8430808337926347512
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7580926111640989261}
+  m_GameObject: {fileID: 1667256906644644307}
   serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
@@ -143,18 +143,18 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
---- !u!65 &1825994416083350721
+--- !u!65 &-5567507831743534819
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7580926111640989261}
+  m_GameObject: {fileID: 1667256906644644307}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -169,17 +169,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-413633781304067835
+--- !u!114 &1060930898382621296
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7580926111640989261}
+  m_GameObject: {fileID: 1667256906644644307}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b8565ae177f4384caced9cbf0e86c17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  mass: 2
+  mass: 3

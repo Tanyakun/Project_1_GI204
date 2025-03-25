@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: -2069442159321442635}
   - component: {fileID: 4892721701278545775}
   - component: {fileID: -8456406193268059728}
-  m_Layer: 0
-  m_Name: T-rex
+  m_Layer: 10
+  m_Name: T-rex B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 2646746451552109291}
   - component: {fileID: 1374998984695024974}
   - component: {fileID: 3814563192182798724}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: T_rex-eiei
   m_TagString: Untagged
   m_Icon: {fileID: 0}

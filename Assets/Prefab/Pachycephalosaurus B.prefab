@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3711672609043987674}
   - component: {fileID: 5407710138672318301}
   - component: {fileID: 3044634014024217232}
-  m_Layer: 0
-  m_Name: Pachycephalosaurus
+  m_Layer: 10
+  m_Name: Pachycephalosaurus B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 4278903113622845525}
   - component: {fileID: 922793872675993584}
   - component: {fileID: 3110469375439831866}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pachycephalosaurus_Di_0321093953_texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
