@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 1060930898382621296}
   m_Layer: 9
   m_Name: Triceratops A
-  m_TagString: Untagged
+  m_TagString: Triceratops
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
