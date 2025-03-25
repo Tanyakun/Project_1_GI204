@@ -10,6 +10,12 @@ TagManager:
   - T-rex
   - Triceratops
   - Velociraptor
+  - BCS
+  - PCH
+  - SPN
+  - TRX
+  - TCT
+  - VRT
   layers:
   - Default
   - TransparentFX

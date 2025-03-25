@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GetPoint : MonoBehaviour
+public class GetPointA : MonoBehaviour
 {
     public TextMeshProUGUI scoreText; // UI Text สำหรับแสดงคะแนน
     private int score = 0; // คะแนนเริ่มต้น
@@ -45,6 +45,6 @@ public class GetPoint : MonoBehaviour
 
     private void UpdateScoreText()
     {
-        scoreText.text = "Score: " + score;
+        scoreText.text = score.ToString();
     }
 }

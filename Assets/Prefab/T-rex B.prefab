@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -8456406193268059728}
   m_Layer: 10
   m_Name: T-rex B
-  m_TagString: Untagged
+  m_TagString: TRX
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
