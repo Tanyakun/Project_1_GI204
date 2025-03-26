@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class GetPointB : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText; // UI Text สำหรับแสดงคะแนน
-    private int score = 0; // คะแนนเริ่มต้น
+    public TextMeshProUGUI scoreText;
+    public int score = 0;
+    public int maxScore = 300;
 
     private void Start()
     {
@@ -13,6 +14,7 @@ public class GetPointB : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
         if (other.CompareTag("PCH"))
         {
             score += 1;
@@ -39,11 +41,21 @@ public class GetPointB : MonoBehaviour
         }
 
         UpdateScoreText();
-        Destroy(other.gameObject); // ทำลาย Object ที่ชนกับ Trigger
+        Destroy(other.gameObject);
+
+        CheckWinCondition(); // ตรวจสอบว่าชนะหรือไม่
     }
 
     private void UpdateScoreText()
     {
         scoreText.text = score.ToString();
+    }
+
+    private void CheckWinCondition()
+    {
+        if (score >= maxScore)
+        {
+            FindFirstObjectByType<GameManager>().EndGame();
+        }
     }
 }

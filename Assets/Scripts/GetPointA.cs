@@ -5,7 +5,8 @@ using UnityEngine.UI;
 public class GetPointA : MonoBehaviour
 {
     public TextMeshProUGUI scoreText; // UI Text สำหรับแสดงคะแนน
-    private int score = 0; // คะแนนเริ่มต้น
+    public int score = 0; // คะแนนเริ่มต้น
+    public int maxScore = 300; //คะแนนสูงสุด
 
     private void Start()
     {
@@ -14,6 +15,7 @@ public class GetPointA : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
         if (other.CompareTag("Pachycephalosaurus"))
         {
             score += 1;
@@ -40,11 +42,21 @@ public class GetPointA : MonoBehaviour
         }
 
         UpdateScoreText();
-        Destroy(other.gameObject); // ทำลาย Object ที่ชนกับ Trigger
+        Destroy(other.gameObject); // ลบ Object เมื่อชน
+
+        CheckWinCondition(); // ตรวจสอบว่าชนะหรือไม่
     }
 
     private void UpdateScoreText()
     {
         scoreText.text = score.ToString();
+    }
+
+    private void CheckWinCondition()
+    {
+        if (score >= maxScore)
+        {
+            FindFirstObjectByType<GameManager>().EndGame(); // บอก GameManager ให้เช็กผลลัพธ์
+        }
     }
 }
