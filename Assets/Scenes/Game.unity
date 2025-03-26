@@ -568,7 +568,7 @@ GameObject:
   - component: {fileID: 710006568}
   - component: {fileID: 710006567}
   m_Layer: 0
-  m_Name: Flag
+  m_Name: Flag A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1116,6 +1116,7 @@ GameObject:
   - component: {fileID: 1270654635}
   - component: {fileID: 1270654634}
   - component: {fileID: 1270654633}
+  - component: {fileID: 1270654636}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1173,6 +1174,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1270654636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270654632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a0063bfcf8545849827a09a3323700c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingTime: 300
+  countdownText: {fileID: 34820125}
 --- !u!1 &1305840967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,7 +1232,7 @@ GameObject:
   - component: {fileID: 1344120847}
   - component: {fileID: 1344120846}
   m_Layer: 0
-  m_Name: Flag (1)
+  m_Name: Flag B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2799,6 +2814,6 @@ SceneRoots:
   - {fileID: 618414292}
   - {fileID: 1690782656}
   - {fileID: 816715942}
-  - {fileID: 1270654635}
   - {fileID: 710006570}
   - {fileID: 1344120849}
+  - {fileID: 1270654635}
