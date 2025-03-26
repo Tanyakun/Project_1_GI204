@@ -2599,6 +2599,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 349693916645787640, guid: d8b4b0696baeac249b375e08c137470e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 1670983964005763353, guid: d8b4b0696baeac249b375e08c137470e, type: 3}
       propertyPath: dinoPrefabs.Array.size
       value: 6
@@ -2796,6 +2800,10 @@ PrefabInstance:
       propertyPath: 'enemyDinoPrefabs.Array.data[5]'
       value: 
       objectReference: {fileID: 1667256906644644307, guid: f67cfdcefae1bfd46821d6f8a6760779, type: 3}
+    - target: {fileID: 8105246480368096098, guid: c33ecefd485d29b459fa8480bf3ce966, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

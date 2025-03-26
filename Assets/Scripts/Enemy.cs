@@ -5,7 +5,7 @@ public class Enemy : MonoBehaviour
     public Transform[] lanes; // จุดเลนที่กำหนด
     private int currentLane = 0;  // เลนปัจจุบัน
     public float changeLaneInterval = 2.0f; // เปลี่ยนเลนทุกๆ กี่วินาที
-    public float spawnDinoInterval = 3.0f; // Spawn ไดโนเสาร์ทุกๆ กี่วินาที
+    public float spawnDinoInterval = 1.0f; // Spawn ไดโนเสาร์ทุกๆ กี่วินาที
     public float speed = 2f;
     private Vector3 moveDirection = Vector3.zero;
 
