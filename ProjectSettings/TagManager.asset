@@ -16,6 +16,8 @@ TagManager:
   - TRX
   - TCT
   - VRT
+  - Mud
+  - Sand
   layers:
   - Default
   - TransparentFX
