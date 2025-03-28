@@ -10,7 +10,14 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        musicSource.clip = musicClip;
-        musicSource.Play();
+        if (musicSource != null && musicClip != null && musicSource.enabled)
+        {
+            musicSource.clip = musicClip;
+            musicSource.Play();
+        }
+        else
+        {
+            Debug.LogError("Audio Source or Audio Clip is not assigned or Audio Source is disabled!");
+        }
     }
 }
