@@ -11,7 +11,7 @@ public class AnimationReset : MonoBehaviour
 
     IEnumerator CreditsBack()
     {
-        yield return new WaitForSeconds(34);
+        yield return new WaitForSeconds(50);
         SceneManager.LoadScene(0);
     }
 
