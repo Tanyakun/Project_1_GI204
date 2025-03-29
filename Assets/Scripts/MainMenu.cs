@@ -8,13 +8,18 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(1);
     }
 
-    public void QuitGame()
-    {
-        Application.Quit();
-    }
-
     public void BacktoLobby()
     {
         SceneManager.LoadSceneAsync(0);
     }
+
+    public void Quit()
+    {
+    #if UNITY_WEBGL && !UNITY_EDITOR
+            Application.OpenURL("https://yourgame.itch.io/"); 
+    #else
+        Application.Quit();
+    #endif
+    }
+
 }
