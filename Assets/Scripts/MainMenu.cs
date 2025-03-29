@@ -1,5 +1,8 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
@@ -20,6 +23,17 @@ public class MainMenu : MonoBehaviour
     #else
         Application.Quit();
     #endif
+    }
+
+    public void GotToCredits()
+    {
+        StartCoroutine(TransferToCredits());
+    }
+
+    IEnumerator TransferToCredits()
+    {
+        yield return new WaitForSeconds(0);
+        SceneManager.LoadSceneAsync(2);
     }
 
 }
