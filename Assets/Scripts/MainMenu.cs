@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Runtime.InteropServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,7 +20,7 @@ public class MainMenu : MonoBehaviour
     public void Quit()
     {
     #if UNITY_WEBGL && !UNITY_EDITOR
-            Application.OpenURL("https://yourgame.itch.io/"); 
+        Application.OpenURL("https://tonklazoo.itch.io/"); 
     #else
         Application.Quit();
     #endif
